@@ -1,0 +1,9 @@
+{
+  "min_amount": 1.0,
+  "max_amount": 1000000.0,
+  "allow_negative": false,
+  "common_amounts": [19, 91, 123, 132, 145, 154, 234, 243, 345, 354, 456, 465, 567, 576, 678, 687, 789, 798, 100, 1000, 10000, 500, 5000, 50000],
+  "required_fields": ["transaction_id", "customer_id", "account_number", "amount", "transaction_date"],
+  "account_format": "^\\d{10}$",
+  "customer_id_format": "^CUST_\\d{6}$"
+}
